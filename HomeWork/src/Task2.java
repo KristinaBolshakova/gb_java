@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 //Вывести все простые числа от 1 до 1000
 public class Task2 {
@@ -12,7 +13,6 @@ public class Task2 {
                     flag = false;
                     break;
                 }
-
             }
             if (flag) {
                 NumList.add(i);
@@ -20,4 +20,6 @@ public class Task2 {
         }
         System.out.println(NumList);
     }
+
 }
+
